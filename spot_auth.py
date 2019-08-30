@@ -4,6 +4,11 @@ import json
 import time
 from requests.auth import HTTPBasicAuth
 
+# TODO: Add search functionality
+# TODO: Let user pick between artist and album
+# TODO: Add option to create playlist in order of songs
+# TODO: Fix multi-song filtering (by name, not by playcount)
+# TODO: Filter out live versions of songs
 
 class song:
     def __init__(self, name, plays):
